@@ -1,0 +1,120 @@
+@font-face { /* Import de la typographie Bahnschrift (veillez à ce qu'elle soit dans le dossier du site) */
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('../Polices/BAHNSCHRIFT 1.woff') format('woff');
+}
+
+html, body { 
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body {
+	background-color: lightgrey;
+	font-family: 'Bahnschrift Regular';
+}
+#mainBlock {
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 0px;
+
+}
+#leftBlock {
+	max-width: 50%;
+	font-size: 1.5em;
+	margin-right : 30px;
+}
+p {
+	margin : 10px;
+}
+header {
+	font-size : 2em;
+	text-align: center;
+	padding-top : 5px;
+
+}
+.vehicule {
+	font-size : 1em;
+	display : flex;
+	flex-direction: column;
+	margin: 5px;
+}
+.ligne {
+	display : flex;
+	flex-direction: row;
+}
+input {
+	margin-bottom : 10px;
+}
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+margin: auto;
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+background-color: #D0E3FA;
+background-image: url(sky.jpg);
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}
+.clean-gray {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: linear-gradient(top, #eeeeee, #cccccc);
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  border-radius: 3px;
+  color: #333;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #eee;
+  width: 150px; }
+  button.clean-gray:hover {
+    background-color: #dddddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+    background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: linear-gradient(top, #dddddd, #bbbbbb);
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd; }
+  button.clean-gray:active {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee; 
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+#resultat {
+	margin-left: 100px;
+	margin-top : 500px;
+}
